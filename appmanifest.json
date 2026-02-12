@@ -1,0 +1,17 @@
+{
+	"name": "14Февраля",
+	"short_name": "14Февраля",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/иконка.png",
+			"sizes": "361x323",
+			"type": "image/png"
+		}
+	],
+	"screenshots": []
+}
