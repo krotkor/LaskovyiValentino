@@ -6,11 +6,13 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.video,
 		C3.Plugins.Mouse,
 		C3.Plugins.Audio,
+		C3.Plugins.Touch,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked,
 		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.Text.Acts.SetFontSize,
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.System.Acts.GoToLayout,
+		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.System.Acts.SetLayerVisible,
 		C3.Plugins.System.Cnds.CompareBoolVar,
@@ -263,6 +265,7 @@ self.C3_JsPropNameTable = [
 	{хелп6: 0},
 	{м7общиеБаллы: 0},
 	{Аудио: 0},
+	{Тач: 0},
 	{М6ВопросыУгадайЕё: 0},
 	{М6Вопрос1ОнаВыбрала: 0},
 	{М6Вопрос2ОнаВыбрала: 0},
@@ -538,5 +541,6 @@ self.InstanceType = {
 	хелп5: class extends self.ITextInstance {},
 	хелп6: class extends self.ITextInstance {},
 	м7общиеБаллы: class extends self.ITextInstance {},
-	Аудио: class extends self.IInstance {}
+	Аудио: class extends self.IInstance {},
+	Тач: class extends self.IInstance {}
 }
